@@ -1,0 +1,12 @@
+{
+  "availability": "MARKET",
+  "contextPath": "anotherPluginApp",
+  "key": "app-appkey-app-plugin-v1",
+  "name": "anotherPluginApp",
+  "resourcesUrl": "https://cdn.rawgit.com/Humsterskiller/CummulocityPlugin/master/build/",
+  "type": "HOSTED",
+  "imports": [
+  	"core/c8yBranding",
+  	"anotherPluginApp/testPlugin"
+  ]
+}

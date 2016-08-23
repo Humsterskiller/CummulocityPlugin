@@ -1,0 +1,10 @@
+{
+  "name": "testPlugin",
+  "description": "testPlugin",
+  "ngModules": [
+    "app.bismark"
+  ],
+  "js": [
+    "index.js"
+  ]
+}

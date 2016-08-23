@@ -1,0 +1,31 @@
+<head>
+
+</head>
+
+<body>
+
+  <section class="tab" ng-controller="mh_MainCtrl as main">
+    <ul class="nav nav-pills nav-justified">
+      <li ng-class="{ active: main.isSet(1) }">
+        <a href ng-click="main.setTab(1)">Resumen General</a></li>
+      <li ng-class="{ active: main.isSet(2) }">
+        <a href ng-click="main.setTab(2)">Eventos en tiempo real</a></li>
+      <li ng-class="{ active: main.isSet(3) }">
+        <a href ng-click="main.setTab(3)">Configuración</a></li>
+    </ul>
+    <div ng-show="main.isSet(1)">
+      <h4>Resumen general tab</h4>
+    </div>
+    <div ng-show="main.isSet(2)">
+      <h4>Eventos en tiempo real tab</h4>
+    </div>
+    <div ng-show="main.isSet(3)">
+      <h4>Configuracion tab</h4>
+    </div>
+  </section>
+  <div >
+    <nvd3 options="options" data="data"></nvd3>
+  </div>
+
+  Hola Lina!!
+</body>

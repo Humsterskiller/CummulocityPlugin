@@ -1,0 +1,10 @@
+imports working
+/*"d3.js",
+"nv.d3.min.js",
+"angular-nvd3.js"*/
+
+<meta charset="utf-8">
+<script type="text/javascript" src="d3.js"></script>
+<script type="text/javascript" src="nv.d3.min.js"></script>
+<script type="text/javascript" src="angular-nvd3.js"></script>
+_______________________________________________________________
