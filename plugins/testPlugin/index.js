@@ -8,10 +8,10 @@ angular.module('app.bismark', []).config([
       name: 'New plugin',
       icon: 'cube',
       priority: 100000,
-      path: 'home'
+      path: 'dummy'
     });
 
-    c8yViewsProvider.when('/home', {
+    c8yViewsProvider.when('/dummy', {
       // Please use this string placeholder where you want to refer you plugin path.
       templateUrl: ':::PLUGIN_PATH:::/views/index.html',
       controller: 'mh_MainCtrl'
