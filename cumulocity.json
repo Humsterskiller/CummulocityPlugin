@@ -3,7 +3,7 @@
   "contextPath": "anotherPluginApp",
   "key": "app-appkey-app-plugin-v1",
   "name": "anotherPluginApp",
-  "resourcesUrl": "https://cdn.rawgit.com/Humsterskiller/CummulocityPlugin/master/build/",
+  "resourcesUrl": "https://cdn.jsdelivr.net/gh/Humsterskiller/CummulocityPlugin/build/",
   "type": "HOSTED",
   "imports": [
   	"core/c8yBranding",
